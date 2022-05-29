@@ -10,5 +10,8 @@ COPY index.html /usr/share/nginx/html
 COPY ads.html /usr/share/nginx/html
 COPY ad.html /usr/share/nginx/html
 COPY fdf.html /usr/share/nginx/html
+COPY gf1.html /usr/share/nginx/html
+COPY gf2.html /usr/share/nginx/html
+
 
 
