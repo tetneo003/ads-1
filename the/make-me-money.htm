@@ -5,8 +5,11 @@
   var element = document.querySelector('a#test');
   var x = Math.floor(Math.random() * 420);
   var y = Math.floor(Math.random() * 420);
-  var z = 'http://s3.c.adhitzads.com/?b6100b132093c2d1e41n1-vMWamZWYyRXezFWZv02bj5ycu9Wa0VHbvNHZpFGcvRXdh9yc!419!420!' + x + '.' + y +'!'
-  element.setAttribute("href", z);
+  var z = 'http://s3.c.adhitzads.com/?b6100b132093c2d1e41n1-vMWamZWYyRXezFWZv02bj5ycu9Wa0VHbvNHZpFGcvRXdh9yc!419!420!' + x + '.' + y +'!';
+  var k = 'http://s3.c.adhitzads.com/?a6101b127215c1d1e49n1-gNxQDe3QGOw9SbvNmLvJHcnBHbs9yc!420!420!' + x + '.' + y +'!';
+  var h = Math.floor(Math.random() * 1);
+  var cars = [x, k];
+  element.setAttribute("href", cars[h]);
   element.click();
   </script>
 </body>
